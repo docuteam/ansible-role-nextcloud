@@ -1,12 +1,13 @@
 ---
 
 galaxy_info:
-  role_name: nextcloud
-  author: Nikolaos Kakouros
+  role_name: docuteam.linux.nextcloud
+  author: Nikolaos Kakouros, Thomas Bernhart
   description:
     Featureful, unbloated Nextcloud Server role without php/DB/webserver/etc
     provisions
-  # company: your company (optional)
+    Fork of Kakouros nextcloud role (https://github.com/nkakouros-original/ansible-role-nextcloud), adapted for Docuteam.
+  company: Docuteam GmbH
   license: GPLv3
   min_ansible_version: 2.7
   github_branch: master
@@ -14,6 +15,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - xenial
+        - bionic
   galaxy_tags:
     - nextcloud
     - web
